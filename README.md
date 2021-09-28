@@ -24,7 +24,7 @@
 * Clone your fork down to your local machine
 
 ```markdown
-git clone https://github.com/your-username/Whatsapp-Filter.git
+git clone https://github.com/your-username/CogniWapp.git
 ```
 
 * Create a branch

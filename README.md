@@ -1,10 +1,11 @@
 # Whatsapp-Filter
 
 ## Description
-- Keeps a check on incoming messages.
+- Keeps a check on incoming messages through basic web-scraping and automation using selenium.
 - Filters out received messages according to pre-entered list of critical words/phrases.
-- Separates messages having a match with critical words/phrases.
-- Ease of getting useful information from piles of messages, rather than mining out important piece of texts from piles of conversations
+- Ease of getting useful information from piles of messages, rather than mining out important piece of texts from piles of conversations.
+- Translate the received messages in your desired language.
+- Aims to have a auto-correct algorithm implemented to have better accuracy while filtering/translating messages.
 
 ## Dependencies
 - Python version >= 3.6
@@ -44,3 +45,12 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!
 * __Star this repository__ if you had fun!
+
+## Future Aspects
+- Translate texts
+  * For desired range of messages, fetch the text and request `Google Translator Ajax API` to translate the given text to English or any other desired language
+  * Install `googletrans` python package to call the API
+    ```pip install googletrans```
+  * Visit https://pypi.org/project/googletrans/ for further details on usage and GitHub repository for `googletrans`
+- Auto-Correct Typos
+  * Refer to https://norvig.com/spell-correct.html for implementation details for autocorrect algorithm

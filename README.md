@@ -1,4 +1,4 @@
-# Whatsapp-Filter
+# CogniWapp
 
 ## Description
 - Keeps a check on incoming messages through basic web-scraping and automation using selenium.

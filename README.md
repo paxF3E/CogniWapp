@@ -1,4 +1,5 @@
 # CogniWapp
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.lOMNSVBQo6xaXC0q15iuIQAAAA%26pid%3DApi&f=1" align="right" height="250px" width="250px"/>
 
 ## Description
 - Keeps a check on incoming messages through basic web-scraping and automation using selenium.
@@ -45,6 +46,12 @@ git push origin branch-name
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!
 * __Star this repository__ if you had fun!
+
+## Contributors
+
+<a href="https://github.com/paxF3E/CogniWapp/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=paxF3E/CogniWapp" />
+</a>
 
 ## Future Aspects
 - Translate texts

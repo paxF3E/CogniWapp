@@ -10,14 +10,13 @@
 
 ## Dependencies
 - Python version >= 3.6
-- selenium with geckodriver for firefox<br/>
+- selenium with chromedriver for chrome browser compatible with each other<br/>
   ```pip install selenium```<br/>
   ```pip install webdriver_manager```
-- get geckodriver from https://github.com/mozilla/geckodriver/releases<br/>
-  - extract ```sudo tar -xvf geckodriver-v0.26.0-linux64.tar.gz```
-  - move Geckodriver to Binary location ``` sudo mv geckodriver /usr/local/bin/```
+- get chromedriver from https://chromedriver.chromium.org/downloads<br/>
+  - move Chromedriver to Binary location ``` sudo mv chromedriver /usr/local/bin/``` (On Windows, just add the location of chromedriver to PATH env-var)
   - change cd to Binary ```cd /usr/local/bin/```
-  - make executable permission to geckodriver ```sudo chmod +x geckodriver```
+  - make executable permission to chromedriver ```sudo chmod +x chromedriver```
 
 
 ## Getting started
